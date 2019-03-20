@@ -18,9 +18,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="CreateTile"
+        android:onClick="Shuffle"
         android:id="@+id/CreateTilePls"
-        android:text="Press the Button"
+        android:text="Shuffle!"
         />
 
 </LinearLayout>

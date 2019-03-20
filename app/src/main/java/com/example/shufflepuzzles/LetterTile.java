@@ -11,9 +11,10 @@ public class LetterTile extends android.support.v7.widget.AppCompatTextView {
      * @param tileSize - length and width of tile in pixels
      * @param backgroundColor - color of tile
      */
-    public LetterTile(Context context, char c, int tileSize, int backgroundColor) {
+    public LetterTile(Context context, char c, int tileSize, int backgroundColor, int textColor) {
         super(context);
         setText(Character.toString(c));
+        setTextColor(textColor);
         setWidth(tileSize);
         setHeight(tileSize);
         setBackgroundColor(backgroundColor);

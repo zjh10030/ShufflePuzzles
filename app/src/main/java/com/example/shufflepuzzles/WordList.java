@@ -1,4 +1,4 @@
-package com.example.shuffle;
+package com.example.shufflepuzzles;
 
 import android.content.Context;
 
@@ -30,7 +30,7 @@ public class WordList {
      * @throws IOException
      */
     private WordList(Context context) throws IOException {
-        InputStream stream = context.getAssets().open("word_list.txt");
+        InputStream stream = context.getAssets().open("word-list.txt");
         BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
 
         String word;
