@@ -7,6 +7,18 @@
     tools:context=".MainActivity"
     android:id="@+id/Layout">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreChart"
+            android:text="Score: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreKeeper"
+            android:text=""/>
+
     <RelativeLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
